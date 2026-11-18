@@ -7,8 +7,10 @@ public class Practica_0 {
 	public static void main(String[] args) {
 		
 		Scanner scan = new Scanner(System.in);
-	
-		
+	//         IMPRIME EL EJERCICIO 13
+		 System.err.println("INGRESA EL NUMERO PARCERO PUES: ");
+		 int fac= scan.nextInt();
+		 System.out.println("EL FACTORIAL DE "+fac+" ES: "+factorial(fac));
 	//         IMPRIME EL JERCICIO 12	
 	//	System.err.println("ingresar el numero raacional:  ");
 	//	double a =scan.nextDouble();
@@ -129,7 +131,7 @@ public class Practica_0 {
 		
 		
 		
-		// EJERCICIO 12 CON AYUDA DE NOTEBOKKKML PORQUE NO ENTENDIA COMO HACERLO
+		// EJERCICIO 12 CON AYUDA DE NOTEBOKEKML PORQUE NO ENTENDIA COMO HACERLO
 		public static double potencia(double x, int a) {
 			double resultado = 1.0;
 			// 1\. Acumulador inicializado en 1.0 (neutro de la multiplicación) 
@@ -138,16 +140,24 @@ public class Practica_0 {
 				resultado *= x;
 				// 3\. Multiplica el resultado actual por la base 'x'
 				} return resultado; 
-				// 4\. Devuelve el resultado final acumulado
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
+				// 4\. Devuelve el resultado final acumuladO		
 		}	
+		
+		 //ejercico 13 este si me salio
+		public static double factorial(int n){
+			int factorial=1;
+			for(int i=1;i<=n;i++) {
+				factorial*=i;
+			}return factorial;
+			
+			
+		}
+		
+		public static int cantCifras(int n) {
+			int a = 0;
+			int n = n.lenght;
+			for(int i=o;i<n.lenght();i++) {
+				
+			}
+		}
 }
